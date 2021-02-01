@@ -48,7 +48,7 @@ body {
   max-width: 100%;
   min-width: 320px;
   height: 100%;
-  color: #000000;
+  /* color: #000000; */
   text-decoration: none;
   
 }
@@ -66,6 +66,8 @@ a:hover {
 }
 
 p {
+    display: flex;
+    flex-wrap: wrap;
     color: #727272;
     margin-bottom: 60px;
 }
@@ -92,7 +94,7 @@ h2 {
 
 .container {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 
 }
@@ -101,9 +103,36 @@ h2 {
     max-width: 100%;
 }
 
+.section {
+    max-width: 100%;
+    /* padding: 0; */
+}
+
+
 /* body - end */
 
 /* individual sections - start */
+
+.row_1 {
+    width: auto;
+}
+.container_2 {
+    max-width: 84%;
+}
+
+.menu {
+    width: 100%;
+    padding: 0;
+    margin-top: 79px;
+}
+
+#display_picture {
+    position: relative;
+    /* left: 50.73%;
+    right: 21.09%;
+    top: 35.14%;
+    bottom: 58.43%; */
+}
 
 .gallery {
     display: flex;
@@ -120,10 +149,6 @@ h2 {
 }
 
 
-.section {
-    max-width: 100%;
-    /* padding: 0; */
-}
 
 .section_first {
     background: #EEEFF1;
@@ -131,23 +156,20 @@ h2 {
 
 .logo_menu,
 .write_me {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
+    display: flex;
 }
 
 .logo {
     margin-top: 57px;
+    margin-left: 20%;
 }
 
 .write_me {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 146px;
 }
 
-.menu {
-    padding: 0;
-    margin-top: 79px;
-}
 
 .menu li {
     display: inline-flex;
@@ -156,15 +178,21 @@ h2 {
     text-decoration: none;
     border: 0;
     outline: none;
-    margin-right: 36px;   
+    margin-right: 15px;  
+
 }
+
 
 .menu__link  {
     font-family: Roboto;
     font-weight: 500;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     line-height: 26px;
     color: #000000;  
+}
+
+.dropdown {
+    margin-left: 0;
 }
 
 .dropdown-menu {
@@ -185,10 +213,13 @@ h2 {
     border: none;
     outline: none;
     font-size: 1.5rem;
+    margin-top: 32px;
+    
 }
 
 .row_2 {
     margin-top: 162px;
+    /* max-width: 1600px; */
 }
 
 .button_write {

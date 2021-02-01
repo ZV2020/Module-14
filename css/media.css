@@ -1,0 +1,32 @@
+@media (max-width: 400px) {
+    h1 {
+        color: rgb(10, 99, 91);
+    }
+
+    .menu__link {
+        font-size: 13px;
+    }
+
+    .nav_menu {
+        width: auto;
+    }
+
+    .logo {
+        margin-top: 57px;
+        margin-left: 10%;
+    }
+}
+
+  @media (max-width: 1320px) {
+      h1 {
+          color: rgb(10, 99, 91);
+      }
+
+      .menu__link {
+          font-size: 13px;
+      }
+
+      .nav_menu {
+          width: auto;
+      }
+  }
