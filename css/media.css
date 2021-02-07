@@ -1,12 +1,31 @@
-@media (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 588px) {
     h1 {
-        color: rgb(10, 99, 91);
+        margin-left: 12%;
+        font-size: 32px;
     }
 
-    .menu__link {
-        font-size: 13px;
+    #display_picture {
+        width: 80%;
+        height: auto;
+        margin-left: 15%;
+    }  
+
+    .present {
+        margin-left: 20%;
+        margin-top: 10%;
     }
 
+    p {
+        font-size: 18px;
+    }
+
+    .button_write {
+        margin-left: 24%;
+        width: 160px;
+        height: 42px;
+    }
+
+   
     .nav_menu {
         width: auto;
     }
@@ -17,16 +36,107 @@
     }
 }
 
-  @media (max-width: 1320px) {
-      h1 {
-          color: rgb(10, 99, 91);
-      }
+@media (min-width: 588px) and (max-width: 768px) {
+    #display_picture {
+        margin-left: 20%;
+        margin-right: 25%;
+    }  
 
-      .menu__link {
-          font-size: 13px;
-      }
+    .present {
+        margin-left: 20%;
+        margin-top: 10%;
+    }
 
-      .nav_menu {
-          width: auto;
-      }
-  }
+    h1 {
+        margin-left: 12%;
+        font-size: 38px;
+
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button_write {
+        margin-left: 26%;
+        width: 160px;
+        height: 42px;
+        
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 884px) {
+    h1 {
+          font-size: 30px;
+    }
+
+    #display_picture {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (min-width: 884px) and (max-width: 1320px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1320px) {
+    h1 {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 1320px) and (max-width: 1800px) {
+    #display_picture {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 1800px) {
+    #display_picture {
+        margin-left: 50%;
+    }
+}
+
+@media (min-width: 1320px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .button_write {
+        width: 225px;
+        height: 65px;
+        
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1320px) {
+    .menu__link {
+        font-size: 13px;
+    }
+
+    .nav_menu {
+        width: auto;
+    }
+
+    #display_picture {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button_write {
+        width: 160px;
+        height: 42px;
+        
+    }
+
+    
+}
