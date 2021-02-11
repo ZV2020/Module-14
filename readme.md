@@ -1,5 +1,5 @@
 
-# Практическая работа 14.13 «Верстка макета» для курса "Профессия веб-разработчик" в школе [SkillFactory](https://skillfactory.ru/)
+# Практическая работа 14 «Верстка макета» для курса "Профессия веб-разработчик" в школе [SkillFactory](https://skillfactory.ru/)
 
 ![school logo](https://lms.skillfactory.ru/static/base-theme-ironwood/images/logo.png)
 
@@ -9,10 +9,10 @@
 
 * CSS
 
-* Bootstrap
+* Bootstrap 
 
 
-Страница на GitHub Pages
+Страница на [GitHub Pages](https://zv2020.github.io/Module-14/)
 
 
 LICENSE: [MIT](/LICENSE.md)

@@ -80,10 +80,8 @@ button {
 
 h1 {
     font-weight: 500;
-    /* font-size: 48px; */
     line-height: 70px;
     margin-bottom: 10%;
-    /* color: rgb(216, 11, 11); */
 }
 
 h2 {
@@ -109,7 +107,10 @@ h2 {
     /* padding: 0; */
 }
 
-
+img {
+    display: block;
+    object-fit: contain;
+}
 /* body - end */
 
 /* individual sections - start */
@@ -234,25 +235,32 @@ h2 {
     margin-bottom: 100px;
 }
 
+.p_project {
+    display: block;
+}
+
 .section_third {
     background:  #34547A;
 }
 
 .gallery {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 100px;
     margin-bottom: 30px;
+    max-width: 1110px;
 }
 
 .img_gallery {
-    width: 46.6px;
+    width: 50px;
     height: 50px;
 }
 
 .p_project {
     color: #ffffff;
+    text-align: center;
 }
 
 .section_fifth {
