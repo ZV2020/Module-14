@@ -80,13 +80,12 @@ button {
 
 h1 {
     font-weight: 500;
-    line-height: 70px;
+    line-height: 40px;
     margin-bottom: 10%;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 32px;
     line-height: 37px;
     margin-bottom: 50px;
 }
@@ -104,7 +103,6 @@ h2 {
 
 .section {
     max-width: 100%;
-    /* padding: 0; */
 }
 
 img {
@@ -115,9 +113,6 @@ img {
 
 /* individual sections - start */
 
-/* .row_1 {
-    width: auto;
-} */
 .container_2 {
     max-width: 90%;
 }
@@ -126,7 +121,6 @@ img {
     width: 100%;
     padding: 0;
     margin-top: 79px;
-    /* margin-left: 10%; */
 }
 
 #display_picture {
@@ -151,7 +145,9 @@ img {
     text-align: center;
 }
 
-
+.h2_how {
+    text-align: center; 
+}
 
 .section_first {
     background: #EEEFF1;
@@ -182,7 +178,6 @@ img {
 .menu__link  {
     font-family: Roboto;
     font-weight: 500;
-    /* font-size: 1rem; */
     line-height: 26px;
     color: #000000;  
 }
@@ -219,8 +214,6 @@ img {
 }
 
 .button_write {
-    /* width: 225px;
-    height: 65px; */
     background: #34547A;
     color: #ffffff;
     margin-bottom: 100px;
@@ -263,6 +256,33 @@ img {
     text-align: center;
 }
 
+.row_5 {
+    align-content: flex-start;
+}
+
+.skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skills p {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 16px;
+
+}
+
+.skills img {
+    margin-right: 30px;
+    padding-right: 50px;
+}
+
+.portret {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
 .section_fifth {
     background: #EEEFF1;
 }
@@ -274,3 +294,19 @@ img {
 .video {
     margin-bottom: 100px;
 }
+
+.section_sixth {
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section_sixth img {
+    padding: 0;
+}
+
+.row_6 {
+    margin: 0;
+    margin-top: 30px;
+}
+
