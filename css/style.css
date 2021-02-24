@@ -105,10 +105,10 @@ h2 {
     max-width: 100%;
 }
 
-img {
+/* img {
     display: block;
     object-fit: contain;
-}
+} */
 /* body - end */
 
 /* individual sections - start */
@@ -256,10 +256,6 @@ img {
     text-align: center;
 }
 
-.row_5 {
-    align-content: flex-start;
-}
-
 .skills {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -310,3 +306,22 @@ img {
     margin-top: 30px;
 }
 
+.row_9 {
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.row_9 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row_9 img {
+    margin: 15px;
+    position: relative;
+}
+
+.section_eighth {
+    background: #EEEFF1;
+}
