@@ -97,6 +97,11 @@ h2 {
 
 }
 
+h3 {
+    color: white;
+    font-size: 21px;
+}
+
 .row {
     max-width: 100%;
 }
@@ -105,10 +110,7 @@ h2 {
     max-width: 100%;
 }
 
-/* img {
-    display: block;
-    object-fit: contain;
-} */
+
 /* body - end */
 
 /* individual sections - start */
@@ -216,7 +218,7 @@ h2 {
 .button_write {
     background: #34547A;
     color: #ffffff;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .about_me {
@@ -237,7 +239,6 @@ h2 {
 }
 
 .gallery {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -249,6 +250,7 @@ h2 {
 .img_gallery {
     width: 50px;
     height: 50px;
+    object-fit: none;
 }
 
 .p_project {
@@ -306,6 +308,13 @@ h2 {
     margin-top: 30px;
 }
 
+.section_seventh {
+    margin: 0;
+}
+
+.row_8 {
+    margin: 0;
+}
 .row_9 {
     margin: 0;
     margin-top: 60px;
@@ -324,4 +333,54 @@ h2 {
 
 .section_eighth {
     background: #EEEFF1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
+
+.section_eighth div {
+    width: 100%;
+    text-align: center;
+}
+
+.contact_h3 {
+    margin-top: 100px;
+}
+.row_12 {
+    background:  #34547A;
+    margin: 0;
+}
+
+.row_12 p {
+    color: white;
+    font-size: 13px;
+}
+
+.row_12 div {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.copyright {
+    padding-left: 5%;
+    padding-top: 64px;
+}
+
+.row_12 img {
+    margin: 11px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.form-control {
+    line-height: 50px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#textarea_form {
+    margin-bottom: 50px;
+}
+
