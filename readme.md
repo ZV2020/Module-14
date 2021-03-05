@@ -9,7 +9,7 @@
 
 * CSS
 
-* Bootstrap 
+* Bootstrap (Вёрстка по сетке)
 
 
 Страница на [GitHub Pages](https://zv2020.github.io/Module-14/)
